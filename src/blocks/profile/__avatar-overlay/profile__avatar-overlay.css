@@ -1,0 +1,28 @@
+.profile__avatar-overlay {
+    position: relative;
+    padding: 0;
+    border: 0;
+    background-image: url(../../../images/editbutton-vector.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 26px 26px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+}
+
+.profile__avatar-overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 750px) {
+    .profile__avatar-overlay {
+        margin: 0 auto;
+    }
+}

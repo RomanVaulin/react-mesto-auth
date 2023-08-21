@@ -1,0 +1,7 @@
+.element__likes_number {
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    user-select: none;
+    color: #292d34;
+}

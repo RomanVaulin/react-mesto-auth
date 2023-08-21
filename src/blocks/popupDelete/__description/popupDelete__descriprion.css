@@ -1,0 +1,17 @@
+.popupDelete__description {
+    max-width: 358px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 900;
+    margin: 19px auto 52px;
+}
+
+@media screen and  (max-width: 470px) {
+    .popupDelete__description {
+        margin: 9px auto 44px;
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 238px;
+    }
+}

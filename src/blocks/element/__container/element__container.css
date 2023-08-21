@@ -1,0 +1,7 @@
+.element__container {
+    display: flex;
+    width: 22px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}

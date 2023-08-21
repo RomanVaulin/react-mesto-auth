@@ -1,0 +1,22 @@
+.popup__container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 430px;
+    width: 100%;
+    position: relative;
+    top: 5px;
+
+}
+
+@media screen and  (max-width: 470px) {
+    .popup__container {
+        top: 0;
+        max-width: 282px;
+    }
+}
+
+.popup_type_popup_type_delete{
+    min-height: 230px;
+  }

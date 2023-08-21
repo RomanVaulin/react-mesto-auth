@@ -1,0 +1,11 @@
+.element__like-button_active {
+    width: 22px;
+    height: 19px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url(../../../../images/likebutton-black.svg);
+    background-size: cover;
+    align-self: center;
+    transition: 0.3s;
+}

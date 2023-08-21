@@ -1,0 +1,13 @@
+.popupEdit__form {
+    margin: 0;
+    padding: 14px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and  (max-width: 470px) {
+    .popupEdit__form {
+        padding: 17px 0;
+    }
+}
